@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/handy"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/handy"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Geobasedworker"
+        tools:targetApi="31">
+        <activity
+            android:name=".Showalllocation"
+            android:exported="false" />
+        <activity
+            android:name=".Alllocation"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".Profileupdate"
+            android:exported="false" />
+        <activity
+            android:name=".Updateprofile"
+            android:exported="false" />
+
+        <activity
+            android:name=".getlocation"
+            android:exported="false" />
+        <activity
+            android:name=".Showfeedback"
+            android:exported="true" />
+        <activity
+            android:name=".Feedback"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".Sendinquiry"
+            android:exported="false" />
+        <activity
+            android:name=".Displayrequire"
+            android:exported="true" />
+        <activity
+            android:name=".Addrequirnment"
+            android:exported="true" />
+        <activity
+            android:name=".Showprofile"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Displayprofile"
+            android:exported="true" />
+        <activity
+            android:name=".WorkerDetails"
+            android:exported="true" />
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".my"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Workerhome"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".home"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Addwoker"
+            android:exported="true">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Workhub</string>
+
+    <string name="map_key" translatable="false">AIzaSyAfJCDYO5r_qBIHzLoaJZ77oe3CoLPRV7k</string>
+
+
+    <string-array name="type">
+        <item>Select Type</item>
+        <item>plumbing</item>
+        <item>electrician</item>
+        <item>auto mechanic</item>
+        <item>painter</item>
+        <item>carpentry</item>
+        <item>pest control</item>
+        <item>flooring</item>
+        <item>home shifter</item>
+        <item>smart home repair</item>
+        <item>gardening</item>
+        <item>sewage cleaner</item>
+        <item>water purifier Maintenance</item>
+    </string-array>
+
+
+    <string-array name="hours">
+        <item>Select Hours</item>
+        <item>hourly</item>
+        <item>daily</item>
+        <item>weekly</item>
+        <item>month</item>
+
+    </string-array>
+</resources>
